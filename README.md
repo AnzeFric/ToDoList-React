@@ -15,7 +15,7 @@ This project is a simple ToDo list application built with React, using Carbon De
 To run this project locally, clone the repository and navigate to the project directory:
 
 ```bash
-git clone https://github.com/AnzeFric/ToDoList-React
+git clone https://github.com/AnzeFric/ToDoList-React.git
 cd ToDoList-React
 npm install
 npm start
