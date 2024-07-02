@@ -53,12 +53,14 @@ const App = () => {
             <h4>Add task</h4>
             <TextInput
               id="task-input-title"
+              labelText=""
               placeholder="Title"
               value={title}
               onChange={(e) => setTitle(e.target.value)}
             />
             <TextArea
               id="task-input-content"
+              labelText=""
               placeholder="Content"
               value={content}
               onChange={(e) => setContent(e.target.value)}
