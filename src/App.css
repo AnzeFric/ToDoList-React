@@ -1,0 +1,66 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .app {
+        height: 110vh;
+    }
+}
+
+.grid {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.menu {
+    background-color: lightgray;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.Add-task h4 {
+    margin-top: 30px;
+}
+
+#task-input-title {
+    margin-top: 10px;
+}
+
+#task-input-content {
+    max-height: 200px;
+    margin-top: 20px;
+}
+
+#btn-add-task {
+    margin-top: 10px;
+}
+
+.list {
+    padding: 10px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+/* Override Carbon 2x Grid gutters */
+.grid,
+.bx--row {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.bx--col {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
